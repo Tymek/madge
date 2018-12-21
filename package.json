@@ -44,12 +44,12 @@
     "commondir": "^1.0.1",
     "debug": "^4.0.1",
     "dependency-tree": "^6.1.0",
-    "graphviz": "^0.0.8",
     "ora": "^3.0.0",
     "pify": "^4.0.0",
     "pluralize": "^7.0.0",
     "pretty-ms": "^4.0.0",
     "rc": "^1.2.7",
+    "viz.js": "^2.1.2",
     "walkdir": "^0.0.12"
   },
   "devDependencies": {
