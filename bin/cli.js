@@ -23,6 +23,7 @@ program
 	.option('-l, --layout <name>', 'layout engine to use for graph (dot/neato/fdp/sfdp/twopi/circo)')
 	.option('--orphans', 'show modules that no one is depending on')
 	.option('--dot', 'show graph using the DOT language')
+	.option('--viz', '')
 	.option('--extensions <list>', 'comma separated string of valid file extensions')
 	.option('--require-config <file>', 'path to RequireJS config')
 	.option('--webpack-config <file>', 'path to webpack config')
@@ -157,7 +158,7 @@ new Promise((resolve, reject) => {
 		return madge(src, config);
 	})
 	.then((res) => {
-		if (!program.json && !program.dot) {
+		if (!program.json && !program.dot && !program.vis) {
 			spinner.stop();
 			output.getResultSummary(res, startTime);
 		}
@@ -209,6 +210,13 @@ new Promise((resolve, reject) => {
 
 		if (program.dot) {
 			return res.dot().then((output) => {
+				process.stdout.write(output);
+				return res;
+			});
+		}
+
+		if (program.viz) {
+			return res.viz().then((output) => {
 				process.stdout.write(output);
 				return res;
 			});
