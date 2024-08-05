@@ -2,7 +2,38 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [v8.0.0](https://github.com/pahen/madge/compare/v7.0.0...v8.0.0)
+
+- chore: edit test/output.sh comply with POSIX [`#391`](https://github.com/pahen/madge/pull/391)
+- Update ts-graphviz@2.1.2 and typescript@5.4.4 [`#424`](https://github.com/pahen/madge/pull/424)
+- Remove not required dep on precinct [`#421`](https://github.com/pahen/madge/pull/421)
+- Cleanup README and remove Travis config [`#422`](https://github.com/pahen/madge/pull/422)
+- Correct engine requirements [`#419`](https://github.com/pahen/madge/pull/419)
+- Add tests for Vue [`#418`](https://github.com/pahen/madge/pull/418)
+- Update to dependency-tree@11 [`#417`](https://github.com/pahen/madge/pull/417)
+- Add empty TS config to fix the tests [`0163dc4`](https://github.com/pahen/madge/commit/0163dc469b3a52af423540ea75301d2f6e01b018)
+- Add comment [`3a52fae`](https://github.com/pahen/madge/commit/3a52fae6cf4ad3018c3a8c43be4e361cbf4679ec)
+- Remove integrated npm cache [`e25fa64`](https://github.com/pahen/madge/commit/e25fa6440631af238edafe02706f3a4616862ffa)
+
+### [v7.0.0](https://github.com/pahen/madge/compare/v6.1.0...v7.0.0)
+
+> 8 April 2024
+
+- devDeps: release-it@^15.6.0-&gt;^16.2.1 [`#393`](https://github.com/pahen/madge/pull/393)
+- ci: Run build & test scripts on GitHub Actions [`#394`](https://github.com/pahen/madge/pull/394)
+- chore: bump and align dependencies; dedupe typescript [`#379`](https://github.com/pahen/madge/pull/379)
+- Adding option to not print the circular file count [`#387`](https://github.com/pahen/madge/pull/387)
+- Update README, explaining to how ignore typed imports on .tsx files [`#389`](https://github.com/pahen/madge/pull/389)
+- docs: update README to include ignore dynamic imports FAQ [`#360`](https://github.com/pahen/madge/pull/360)
+- docs: fix donate anchor [`#362`](https://github.com/pahen/madge/pull/362)
+- Release 6.1.0 [`#378`](https://github.com/pahen/madge/pull/378)
+- chore: check in package-lock.json [`2137846`](https://github.com/pahen/madge/commit/2137846544697e3cdad9fb9d3599875f241dcb3d)
+- devDeps: release-it@^16.1.5-&gt;^16.2.1 [`1bcdc12`](https://github.com/pahen/madge/commit/1bcdc12093131b0a92fc9dc76a701cfccdf03867)
+- ci: add build/test workflow for GitHub Actions [`fa34634`](https://github.com/pahen/madge/commit/fa34634e06116572d606e6035f7402a7d276ab6e)
+
 #### [v6.1.0](https://github.com/pahen/madge/compare/v6.0.0...v6.1.0)
+
+> 4 June 2023
 
 - constrain and bump typescript versions [`#376`](https://github.com/pahen/madge/pull/376)
 - Disable spinner when running in CI [`#356`](https://github.com/pahen/madge/pull/356)
@@ -10,9 +41,9 @@ All notable changes to this project will be documented in this file. Dates are d
 - feat: support for rankdir in CLI [`#311`](https://github.com/pahen/madge/pull/311)
 - Move typescript to peer dependencies [`#350`](https://github.com/pahen/madge/pull/350)
 - Release 6.0.0 [`#352`](https://github.com/pahen/madge/pull/352)
+- Release 6.1.0 [`66bb0c3`](https://github.com/pahen/madge/commit/66bb0c30798b31557d239ca61b2a43ffa6f53fba)
 - install and use ci-info [`c35da47`](https://github.com/pahen/madge/commit/c35da472e7352340209f4537d020b2702f9e67e7)
 - remove ci-info and change isEnabled setting [`a771115`](https://github.com/pahen/madge/commit/a771115ce570c8ea8d4c3ca68300dcfa0b5759ea)
-- control no-spinner from env var [`3a7d544`](https://github.com/pahen/madge/commit/3a7d544fc19b0e23a5e106da969274950e7f7ebc)
 
 ### [v6.0.0](https://github.com/pahen/madge/compare/v5.0.2...v6.0.0)
 
